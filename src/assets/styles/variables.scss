@@ -1,0 +1,65 @@
+:root {
+  /* 色彩系統 - 偵探檔案風 */
+  --color-bg-primary: #1a1a2e;
+  --color-bg-secondary: #0f0f0f;
+  --color-bg-card: #2d2d44;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #b8b8b8;
+  --color-accent: #e63946;
+  --color-accent-dim: #c62f3b;
+  --color-success: #06d6a0;
+  --color-error: #ef476f;
+  --color-gold: #d4a373;
+  
+  /* 字體 */
+  --font-primary: 'Noto Sans TC', sans-serif;
+  --font-mono: 'Courier New', monospace;
+  
+  /* 間距 */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  
+  /* 圓角 */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  
+  /* 陰影 */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.5);
+  
+  /* 過渡 */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-primary);
+  color: var(--color-text-primary);
+  background: var(--color-bg-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  border: none;
+  outline: none;
+}
+
+input {
+  font-family: inherit;
+}
