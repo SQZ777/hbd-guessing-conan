@@ -22,7 +22,7 @@ export const questions = [
     id: 3,
     type: 'choice',
     question: '真相只有一個，是誰的口頭禪？',
-    options: ['前柯市長柯啊北', '江戶川柯南', '藝人柯震東', '數學家柯西'],
+    options: ['前柯市長柯啊北', '藝人柯震東', '數學家柯西', '江戶川柯南'],
     answer: '江戶川柯南',
     difficulty: 'Normal'
   },
